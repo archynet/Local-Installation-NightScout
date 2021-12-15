@@ -27,6 +27,10 @@ npm audit fix
 
 npm install jsdom
 
+npm install jsonwebtoken --save
+
+npm install tmp
+
 # my.env file creation, you can edit this file later to add parameters
 
 echo 'MONGO_CONNECTION=mongodb://127.0.0.1:27017/mydatabase' >> my.env
